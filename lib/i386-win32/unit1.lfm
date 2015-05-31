@@ -1,0 +1,26 @@
+object Form1: TForm1
+  Left = 243
+  Height = 240
+  Top = 164
+  Width = 320
+  Caption = 'Adheyatma_tugasPD1'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '1.0.14.0'
+  object yatma: TEdit
+    Left = 80
+    Height = 23
+    Top = 72
+    Width = 152
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 162
+    Height = 25
+    Top = 142
+    Width = 75
+    Caption = 'Tampilkan'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+end
